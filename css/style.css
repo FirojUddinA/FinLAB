@@ -1,0 +1,68 @@
+/* line 6, N:/himl practice/mijux/scss/style.scss */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* line 12, N:/himl practice/mijux/scss/style.scss */
+body {
+  background: #333;
+  color: #fff;
+}
+
+/* line 17, N:/himl practice/mijux/scss/style.scss */
+.navbar {
+  border-bottom: 3px solid #008ed6;
+  background: rgba(41, 43, 44, 0.71) !important;
+}
+
+/* line 24, N:/himl practice/mijux/scss/style.scss */
+#home-head-section {
+  background-image: url("../image/home.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  min-height: 700px;
+}
+
+/* line 32, N:/himl practice/mijux/scss/style.scss */
+#home-head-section .dark-overlay {
+  background-color: rgba(2, 2, 2, 0.77);
+  height: 700px;
+  width: 100%;
+}
+
+/* line 37, N:/himl practice/mijux/scss/style.scss */
+#home-head-section .dark-overlay .home-enner {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+}
+
+/* line 43, N:/himl practice/mijux/scss/style.scss */
+#home-head-section .check i {
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+/* line 48, N:/himl practice/mijux/scss/style.scss */
+#home-head-section .sign-up-form {
+  opacity: .8;
+}
+
+/* line 58, N:/himl practice/mijux/scss/style.scss */
+#explore-main-section i, #create-main-section i, #share-main-section i {
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 3, N:/himl practice/mijux/scss/_media.scss */
+  #home-head-section h1 {
+    font-size: 36px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

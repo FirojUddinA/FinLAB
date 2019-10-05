@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss",
+		"../scss/_media.scss"
+	],
+	"sourcesContent": [
+		"$body-bg: #333;\r\n$header-bg: rgba(41, 43, 44, 0.71);\r\n$font-color: #fff;\r\n$fin-primary-color:#008ed6;\r\n\r\n*{\r\n  padding: 0;\r\n  margin: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody{\r\n  background: $body-bg;\r\n  color: $font-color;\r\n}\r\n\r\n.navbar{\r\n  border-bottom: 3px solid $fin-primary-color;\r\n  background: $header-bg !important;\r\n}\r\n\r\n\r\n\r\n#home-head-section{\r\n  background-image:url(\"../image/home.jpg\");\r\n  background-attachment: fixed;\r\n  background-size: cover;\r\n  background-position: center top;\r\n  background-repeat: no-repeat;\r\n  min-height: 700px;\r\n\r\n  .dark-overlay{\r\n    background-color: rgba(2, 2, 2, 0.77);\r\n    height: 700px;\r\n    width: 100%;\r\n\r\n    .home-enner{\r\n      padding-top: 150px;\r\n      padding-bottom: 50px;\r\n      box-sizing: border-box;\r\n    }\r\n  }\r\n  .check i{\r\n    border-radius: 5px;\r\n    font-size: 20px;\r\n\r\n  }\r\n  .sign-up-form{\r\n    opacity: .8;\r\n  }\r\n\r\n}\r\n\r\n#explore-main-section,#create-main-section,#share-main-section{\r\n  img{\r\n    //width: 100%;\r\n  }\r\n  i{\r\n    font-size: 20px;\r\n    border-radius: 5px;\r\n  }\r\n}\r\n\r\n\r\n\r\n\r\n@import \"media\";\r\n\r\n",
+		"@media screen and (max-width: 768px){\r\n  #home-head-section{\r\n    h1{\r\n      font-size: 36px;\r\n    }\r\n  }\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAKA,AAAA,CAAC,CAAA;EACC,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CACvB;;;AAED,AAAA,IAAI,CAAA;EACF,UAAU,EAZF,IAAI;EAaZ,KAAK,EAXM,IAAI;CAYhB;;;AAED,AAAA,OAAO,CAAA;EACL,aAAa,EAAE,GAAG,CAAC,KAAK,CAdP,OAAO;EAexB,UAAU,EAjBA,sBAAsB,CAiBT,UAAU;CAClC;;;AAID,AAAA,kBAAkB,CAAA;EAChB,gBAAgB,EAAC,wBAAwB;EACzC,qBAAqB,EAAE,KAAK;EAC5B,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,UAAU;EAC/B,iBAAiB,EAAE,SAAS;EAC5B,UAAU,EAAE,KAAK;CAsBlB;;;AA5BD,AAQE,kBARgB,CAQhB,aAAa,CAAA;EACX,gBAAgB,EAAE,mBAAmB;EACrC,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;CAOZ;;;AAlBH,AAaI,kBAbc,CAQhB,aAAa,CAKX,WAAW,CAAA;EACT,WAAW,EAAE,KAAK;EAClB,cAAc,EAAE,IAAI;EACpB,UAAU,EAAE,UAAU;CACvB;;;AAjBL,AAmBE,kBAnBgB,CAmBhB,MAAM,CAAC,CAAC,CAAA;EACN,aAAa,EAAE,GAAG;EAClB,SAAS,EAAE,IAAI;CAEhB;;;AAvBH,AAwBE,kBAxBgB,CAwBhB,aAAa,CAAA;EACX,OAAO,EAAE,EAAE;CACZ;;;AAIH,AAIE,qBAJmB,CAInB,CAAC,EAJmB,oBAAoB,CAIxC,CAAC,EAJwC,mBAAmB,CAI5D,CAAC,CAAA;EACC,SAAS,EAAE,IAAI;EACf,aAAa,EAAE,GAAG;CACnB;;AC5DH,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;;EACjC,AACE,kBADgB,CAChB,EAAE,CAAA;IACA,SAAS,EAAE,IAAI;GAChB"
+}
